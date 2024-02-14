@@ -1,1 +1,15 @@
+*{
+    background-color: yellow;
+    box-sizing: border-box;
+}
+.container {
+    background: black;
+    display: grid;
+    grid: repeat(4, 250px) / repeat(auto-fit, minmax(150px, 2fr));
+    gap: 5px 20px;
+  }
 
+
+div {
+    background: white
+}
